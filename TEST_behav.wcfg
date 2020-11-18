@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TEST_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TEST" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="249877fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="181"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/TEST/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST/SEED" type="array">
+      <obj_property name="ElementShortName">SEED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SEED[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST/RAND" type="other">
+      <obj_property name="ElementShortName">RAND</obj_property>
+      <obj_property name="ObjectShortName">RAND</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST/DUT/SHFT/SI" type="array">
+      <obj_property name="ElementShortName">SI[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SI[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST/DUT/SHFT/SO" type="array">
+      <obj_property name="ElementShortName">SO[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SO[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST/DATA" type="array">
+      <obj_property name="ElementShortName">DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST/AVG" type="array">
+      <obj_property name="ElementShortName">AVG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AVG[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

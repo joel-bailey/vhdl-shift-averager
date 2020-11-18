@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab5.srcs/sources_1/new/ACCUMULATE.vhd" \
+"../../../../lab5.srcs/sources_1/new/AVERAGE.vhd" \
+"../../../../lab5.srcs/sources_1/new/RNG.vhd" \
+"../../../../lab5.srcs/sources_1/new/SHIFTREG.vhd" \
+"../../../../lab5.srcs/sources_1/new/TOP.vhd" \
+"../../../../lab5.srcs/sim_1/new/TEST.vhd" \
+
+# Do not sort compile order
+nosort
